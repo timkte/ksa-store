@@ -11,7 +11,7 @@
       "command": "npx",
       "args": ["@exa-labs/mcp"],
       "env": {
-        "EXA_API_KEY": "YOUR_EXA_API_KEY_HERE"
+        "EXA_API_KEY": "191a9184-7e7f-4eeb-a60a-6866a499bffa"
       }
     }
   }
