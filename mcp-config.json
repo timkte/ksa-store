@@ -1,0 +1,24 @@
+{
+  "mcps": [
+    {
+      "name": "context7",
+      "enabled": true,
+      "config": {
+        "apiKey": "YOUR_CONTEXT7_API_KEY_HERE",
+        "baseUrl": "https://api.context7.com",
+        "timeout": 30000
+      }
+    },
+    {
+      "name": "exa",
+      "enabled": true,
+      "config": {
+        "apiKey": "YOUR_EXA_API_KEY_HERE",
+        "baseUrl": "https://api.exa.ai",
+        "timeout": 30000
+      }
+    }
+  ],
+  "version": "1.0",
+  "description": "MCP Configuration for context7 and exa integrations"
+}
