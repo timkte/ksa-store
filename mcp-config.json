@@ -1,24 +1,18 @@
 {
-  "mcps": [
-    {
-      "name": "context7",
-      "enabled": true,
-      "config": {
-        "apiKey": "YOUR_CONTEXT7_API_KEY_HERE",
-        "baseUrl": "https://api.context7.com",
-        "timeout": 30000
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["@context7/mcp"],
+      "env": {
+        "CONTEXT7_API_KEY": "ctx7sk-84dab176-e353-4425-a88e-b24c39552b75"
       }
     },
-    {
-      "name": "exa",
-      "enabled": true,
-      "config": {
-        "apiKey": "YOUR_EXA_API_KEY_HERE",
-        "baseUrl": "https://api.exa.ai",
-        "timeout": 30000
+    "exa": {
+      "command": "npx",
+      "args": ["@exa-labs/mcp"],
+      "env": {
+        "EXA_API_KEY": "YOUR_EXA_API_KEY_HERE"
       }
     }
-  ],
-  "version": "1.0",
-  "description": "MCP Configuration for context7 and exa integrations"
+  }
 }
